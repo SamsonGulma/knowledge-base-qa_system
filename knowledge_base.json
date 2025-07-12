@@ -1,0 +1,74 @@
+{
+  "subjects": [
+    {
+      "name": "Computer Science",
+      "topics": [
+        {
+          "name": "Data Structures",
+          "subtopics": [
+            {
+              "name": "Arrays",
+              "description": "An array is a collection of items stored at contiguous memory locations."
+            },
+            {
+              "name": "Linked List",
+              "description": "A linked list is a linear data structure where each element points to the next."
+            },
+            {
+              "name": "Stacks",
+              "description": "A stack is a linear data structure which follows the LIFO (Last In First Out) principle."
+            },
+            {
+              "name": "Queues",
+              "description": "A queue is a linear structure which follows the FIFO (First In First Out) principle."
+            }
+          ]
+        },
+        {
+          "name": "Algorithms",
+          "subtopics": [
+            {
+              "name": "Sorting",
+              "description": "Sorting algorithms arrange elements in a particular order. Examples include bubble sort, merge sort, and quick sort."
+            },
+            {
+              "name": "Searching",
+              "description": "Searching algorithms help find an element in a dataset. Examples are binary search and linear search."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "topics": [
+        {
+          "name": "Calculus",
+          "subtopics": [
+            {
+              "name": "Derivatives",
+              "description": "A derivative represents the rate at which a function is changing at any given point."
+            },
+            {
+              "name": "Integrals",
+              "description": "An integral calculates the area under a curve and is the inverse of a derivative."
+            }
+          ]
+        },
+        {
+          "name": "Algebra",
+          "subtopics": [
+            {
+              "name": "Linear Equations",
+              "description": "Linear equations are equations of the first order. Their graphs are straight lines."
+            },
+            {
+              "name": "Quadratic Equations",
+              "description": "Quadratic equations are polynomial equations of degree 2 and can be solved using the quadratic formula."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

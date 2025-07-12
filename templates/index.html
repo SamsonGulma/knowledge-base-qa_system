@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education QA System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-lg">
+        <h2 class="text-xl font-bold mb-4 text-center">Ask Your Question</h2>
+        <form action="/" method="POST" class="mb-4">
+            <input type="text" name="question" placeholder="Enter your question..." 
+                   class="w-full p-2 mb-4 border rounded-lg" required>
+            <button type="submit" 
+                    class="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg">Get Answer</button>
+        </form>
+        {% if answer %}
+            <div class="p-4 bg-green-100 rounded-lg">
+                <strong>Answer:</strong>
+                <p>{{ answer }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
